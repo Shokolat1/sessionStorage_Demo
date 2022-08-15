@@ -2,13 +2,23 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
-/* 
-a {
-  color: #00B7FF;
-} */
+
+form{
+  width: 40vw;
+}
 
 .botonera{
-  margin-top: 30vh;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+}
+
+#save, #load{
+  margin-right: 20px;
+}
+
+.botonera2{
+  margin-top: 12vh;
   display: flex;
   justify-content: space-evenly;
 }
